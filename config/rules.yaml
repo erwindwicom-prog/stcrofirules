@@ -1,27 +1,15 @@
-# Parameter sistem — bisa diubah tanpa coding
 fundamental:
-  market_cap_min: 10000000000000     # 10 Triliun
+  market_cap_min: 10000000000000
   roe_min: 0.0
   der_max: 2.0
   npm_min: 0.0
-  free_float_min: 20.0               # %
-  free_float_max: 40.0               # %
-  net_income_qoq_growth: true        # harus tumbuh QoQ
-  net_income_yoy_growth: true        # harus tumbuh YoY
-
 liquidity:
-  volume_min: 100000000              # lot/hari
-  value_min: 500000000               # IDR/hari
-
+  volume_min: 100000000
+  value_min: 500000000
 momentum:
   price_min: 100
   volume_spike_factor: 2.0
-  value_spike_factor: 2.0
-  open_low_tolerance_pct: 0.5        # toleransi untuk Open=Low
-
+  open_low_tolerance_pct: 0.5
 trading:
   sl_pct: -2.0
   tp_pct: 5.0
-  max_holding_days: 10
-  risk_per_trade_pct: 1.0
-  max_concurrent_positions: 5
