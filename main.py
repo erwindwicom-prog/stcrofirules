@@ -1,5 +1,5 @@
 from src.utils import setup_logger
-from src import 1_data_ingestion as di
+from src import data_ingestion as di
 
 logger = setup_logger()
 
