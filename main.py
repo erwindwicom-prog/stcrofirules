@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.insert(0, os.path.abspath('.'))  # ← tambahkan ini
+
 from src.utils import setup_logger
 from src import data_ingestion as di
 
